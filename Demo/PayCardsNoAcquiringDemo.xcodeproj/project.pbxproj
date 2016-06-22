@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		328AFC8F7236915879E3986D /* Pods_PayCardsNoAcquiringSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A329AE183EF61F12C316634 /* Pods_PayCardsNoAcquiringSwiftDemo.framework */; };
+		663BCA0C1CA4043B00B68878 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 663BCA0B1CA4043B00B68878 /* main.m */; };
+		663BCA0F1CA4043B00B68878 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663BCA0E1CA4043B00B68878 /* AppDelegate.m */; };
+		663BCA121CA4043B00B68878 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663BCA111CA4043B00B68878 /* ViewController.m */; };
+		663BCA171CA4043B00B68878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663BCA161CA4043B00B68878 /* Assets.xcassets */; };
+		663BCA261CA4045A00B68878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663BCA251CA4045A00B68878 /* AppDelegate.swift */; };
+		663BCA281CA4045A00B68878 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663BCA271CA4045A00B68878 /* ViewController.swift */; };
+		663BCA2B1CA4045A00B68878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663BCA291CA4045A00B68878 /* Main.storyboard */; };
+		663BCA381CA4398B00B68878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663BCA371CA4398B00B68878 /* Main.storyboard */; };
+		66B9D40F1D1009BD00A5C764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663BCA161CA4043B00B68878 /* Assets.xcassets */; };
+		66B9D4111D10167800A5C764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B9D4101D10167800A5C764 /* LaunchScreen.storyboard */; };
+		66B9D4121D10167800A5C764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B9D4101D10167800A5C764 /* LaunchScreen.storyboard */; };
+		AF8628A27BA4477EC13D7D33 /* Pods_PayCardsNoAcquiringObjcDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101FC255FA9F448232EE9BF3 /* Pods_PayCardsNoAcquiringObjcDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		101FC255FA9F448232EE9BF3 /* Pods_PayCardsNoAcquiringObjcDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayCardsNoAcquiringObjcDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		183EA0E4A0C447C2962B4C26 /* Pods-PayCardsNoAcquiringSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayCardsNoAcquiringSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayCardsNoAcquiringSwiftDemo/Pods-PayCardsNoAcquiringSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5B1470CD3EA289ED66F011B5 /* Pods-PayCardsNoAcquiringObjcDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayCardsNoAcquiringObjcDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayCardsNoAcquiringObjcDemo/Pods-PayCardsNoAcquiringObjcDemo.release.xcconfig"; sourceTree = "<group>"; };
+		663BCA081CA4043B00B68878 /* PayCardsNoAcquiringObjcDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayCardsNoAcquiringObjcDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		663BCA0B1CA4043B00B68878 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		663BCA0D1CA4043B00B68878 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		663BCA0E1CA4043B00B68878 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		663BCA101CA4043B00B68878 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		663BCA111CA4043B00B68878 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		663BCA161CA4043B00B68878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		663BCA1B1CA4043B00B68878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		663BCA231CA4045A00B68878 /* PayCardsNoAcquiringSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayCardsNoAcquiringSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		663BCA251CA4045A00B68878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		663BCA271CA4045A00B68878 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		663BCA2A1CA4045A00B68878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		663BCA311CA4045A00B68878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		663BCA371CA4398B00B68878 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		66B9D4101D10167800A5C764 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A2AD925BC8DC7743A94316D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A329AE183EF61F12C316634 /* Pods_PayCardsNoAcquiringSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayCardsNoAcquiringSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91AA8D324C79A2AA1CD00D3C /* Pods-PayCardsNoAcquiringSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayCardsNoAcquiringSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayCardsNoAcquiringSwiftDemo/Pods-PayCardsNoAcquiringSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D03349FD63362E37CE6C5C12 /* Pods-PayCardsNoAcquiringObjcDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayCardsNoAcquiringObjcDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayCardsNoAcquiringObjcDemo/Pods-PayCardsNoAcquiringObjcDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		663BCA051CA4043B00B68878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8628A27BA4477EC13D7D33 /* Pods_PayCardsNoAcquiringObjcDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663BCA201CA4045A00B68878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328AFC8F7236915879E3986D /* Pods_PayCardsNoAcquiringSwiftDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5370CFBF49452E8669B38584 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A2AD925BC8DC7743A94316D /* Pods.framework */,
+				101FC255FA9F448232EE9BF3 /* Pods_PayCardsNoAcquiringObjcDemo.framework */,
+				8A329AE183EF61F12C316634 /* Pods_PayCardsNoAcquiringSwiftDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		620A732A1E46E6DD1FDC223C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D03349FD63362E37CE6C5C12 /* Pods-PayCardsNoAcquiringObjcDemo.debug.xcconfig */,
+				5B1470CD3EA289ED66F011B5 /* Pods-PayCardsNoAcquiringObjcDemo.release.xcconfig */,
+				91AA8D324C79A2AA1CD00D3C /* Pods-PayCardsNoAcquiringSwiftDemo.debug.xcconfig */,
+				183EA0E4A0C447C2962B4C26 /* Pods-PayCardsNoAcquiringSwiftDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		663BC9CE1CA4018E00B68878 = {
+			isa = PBXGroup;
+			children = (
+				663BCA091CA4043B00B68878 /* PayCardsNoAcquiringObjcDemo */,
+				663BCA241CA4045A00B68878 /* PayCardsNoAcquiringSwiftDemo */,
+				663BC9D81CA4018E00B68878 /* Products */,
+				5370CFBF49452E8669B38584 /* Frameworks */,
+				620A732A1E46E6DD1FDC223C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		663BC9D81CA4018E00B68878 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				663BCA081CA4043B00B68878 /* PayCardsNoAcquiringObjcDemo.app */,
+				663BCA231CA4045A00B68878 /* PayCardsNoAcquiringSwiftDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		663BCA091CA4043B00B68878 /* PayCardsNoAcquiringObjcDemo */ = {
+			isa = PBXGroup;
+			children = (
+				663BCA0D1CA4043B00B68878 /* AppDelegate.h */,
+				663BCA0E1CA4043B00B68878 /* AppDelegate.m */,
+				663BCA101CA4043B00B68878 /* ViewController.h */,
+				663BCA111CA4043B00B68878 /* ViewController.m */,
+				663BCA371CA4398B00B68878 /* Main.storyboard */,
+				663BCA161CA4043B00B68878 /* Assets.xcassets */,
+				66B9D4101D10167800A5C764 /* LaunchScreen.storyboard */,
+				663BCA1B1CA4043B00B68878 /* Info.plist */,
+				663BCA0A1CA4043B00B68878 /* Supporting Files */,
+			);
+			path = PayCardsNoAcquiringObjcDemo;
+			sourceTree = "<group>";
+		};
+		663BCA0A1CA4043B00B68878 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				663BCA0B1CA4043B00B68878 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		663BCA241CA4045A00B68878 /* PayCardsNoAcquiringSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				663BCA251CA4045A00B68878 /* AppDelegate.swift */,
+				663BCA271CA4045A00B68878 /* ViewController.swift */,
+				663BCA291CA4045A00B68878 /* Main.storyboard */,
+				663BCA311CA4045A00B68878 /* Info.plist */,
+			);
+			path = PayCardsNoAcquiringSwiftDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		663BCA071CA4043B00B68878 /* PayCardsNoAcquiringObjcDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 663BCA1C1CA4043B00B68878 /* Build configuration list for PBXNativeTarget "PayCardsNoAcquiringObjcDemo" */;
+			buildPhases = (
+				20374C3EFAA60AA402010D5A /* [CP] Check Pods Manifest.lock */,
+				663BCA041CA4043B00B68878 /* Sources */,
+				663BCA051CA4043B00B68878 /* Frameworks */,
+				663BCA061CA4043B00B68878 /* Resources */,
+				F07AFF74F3C9BA60DE5D3D53 /* [CP] Embed Pods Frameworks */,
+				0DD62DAE9E5191431778F006 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayCardsNoAcquiringObjcDemo;
+			productName = PayCardsNoAcquiringObjcDemo;
+			productReference = 663BCA081CA4043B00B68878 /* PayCardsNoAcquiringObjcDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		663BCA221CA4045A00B68878 /* PayCardsNoAcquiringSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 663BCA321CA4045A00B68878 /* Build configuration list for PBXNativeTarget "PayCardsNoAcquiringSwiftDemo" */;
+			buildPhases = (
+				0DEE9582E37A78D01EAAD7D3 /* [CP] Check Pods Manifest.lock */,
+				663BCA1F1CA4045A00B68878 /* Sources */,
+				663BCA201CA4045A00B68878 /* Frameworks */,
+				663BCA211CA4045A00B68878 /* Resources */,
+				CD1BE0877DEF17082A172247 /* [CP] Embed Pods Frameworks */,
+				A128BE458B9ECF2AD888D635 /* [CP] Copy Pods Resources */,
+				66A0A8E71D115F3800261E55 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayCardsNoAcquiringSwiftDemo;
+			productName = PayCardsNoAcquiringSwiftDemo;
+			productReference = 663BCA231CA4045A00B68878 /* PayCardsNoAcquiringSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		663BC9CF1CA4018E00B68878 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Pay.Cards;
+				TargetAttributes = {
+					663BCA071CA4043B00B68878 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					663BCA221CA4045A00B68878 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 663BC9D21CA4018E00B68878 /* Build configuration list for PBXProject "PayCardsNoAcquiringDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 663BC9CE1CA4018E00B68878;
+			productRefGroup = 663BC9D81CA4018E00B68878 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				663BCA071CA4043B00B68878 /* PayCardsNoAcquiringObjcDemo */,
+				663BCA221CA4045A00B68878 /* PayCardsNoAcquiringSwiftDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		663BCA061CA4043B00B68878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B9D4111D10167800A5C764 /* LaunchScreen.storyboard in Resources */,
+				663BCA171CA4043B00B68878 /* Assets.xcassets in Resources */,
+				663BCA381CA4398B00B68878 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663BCA211CA4045A00B68878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B9D4121D10167800A5C764 /* LaunchScreen.storyboard in Resources */,
+				66B9D40F1D1009BD00A5C764 /* Assets.xcassets in Resources */,
+				663BCA2B1CA4045A00B68878 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DD62DAE9E5191431778F006 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayCardsNoAcquiringObjcDemo/Pods-PayCardsNoAcquiringObjcDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DEE9582E37A78D01EAAD7D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		20374C3EFAA60AA402010D5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		66A0A8E71D115F3800261E55 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 34a6ac8f56eb606d1146f3083037f8294252ceec 4f33bd2b6c459c48a99e982d32a60f3a918d85ee428cfb09dde2f914bfb72f9d";
+		};
+		A128BE458B9ECF2AD888D635 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayCardsNoAcquiringSwiftDemo/Pods-PayCardsNoAcquiringSwiftDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD1BE0877DEF17082A172247 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayCardsNoAcquiringSwiftDemo/Pods-PayCardsNoAcquiringSwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F07AFF74F3C9BA60DE5D3D53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayCardsNoAcquiringObjcDemo/Pods-PayCardsNoAcquiringObjcDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		663BCA041CA4043B00B68878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663BCA121CA4043B00B68878 /* ViewController.m in Sources */,
+				663BCA0F1CA4043B00B68878 /* AppDelegate.m in Sources */,
+				663BCA0C1CA4043B00B68878 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663BCA1F1CA4045A00B68878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663BCA281CA4045A00B68878 /* ViewController.swift in Sources */,
+				663BCA261CA4045A00B68878 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		663BCA291CA4045A00B68878 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				663BCA2A1CA4045A00B68878 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		663BC9EC1CA4018E00B68878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		663BC9ED1CA4018E00B68878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		663BCA1D1CA4043B00B68878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D03349FD63362E37CE6C5C12 /* Pods-PayCardsNoAcquiringObjcDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PayCardsNoAcquiringObjcDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayCards.PayCardsNoAcquiringObjcDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		663BCA1E1CA4043B00B68878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1470CD3EA289ED66F011B5 /* Pods-PayCardsNoAcquiringObjcDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PayCardsNoAcquiringObjcDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayCards.PayCardsNoAcquiringObjcDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		663BCA331CA4045A00B68878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91AA8D324C79A2AA1CD00D3C /* Pods-PayCardsNoAcquiringSwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PayCardsNoAcquiringSwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayCards.PayCardsNoAcquiringSwiftDemo.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		663BCA341CA4045A00B68878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183EA0E4A0C447C2962B4C26 /* Pods-PayCardsNoAcquiringSwiftDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PayCardsNoAcquiringSwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayCards.PayCardsNoAcquiringSwiftDemo.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		663BC9D21CA4018E00B68878 /* Build configuration list for PBXProject "PayCardsNoAcquiringDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663BC9EC1CA4018E00B68878 /* Debug */,
+				663BC9ED1CA4018E00B68878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		663BCA1C1CA4043B00B68878 /* Build configuration list for PBXNativeTarget "PayCardsNoAcquiringObjcDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663BCA1D1CA4043B00B68878 /* Debug */,
+				663BCA1E1CA4043B00B68878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		663BCA321CA4045A00B68878 /* Build configuration list for PBXNativeTarget "PayCardsNoAcquiringSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663BCA331CA4045A00B68878 /* Debug */,
+				663BCA341CA4045A00B68878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 663BC9CF1CA4018E00B68878 /* Project object */;
+}
