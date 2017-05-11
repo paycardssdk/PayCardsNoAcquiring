@@ -1,10 +1,10 @@
 #source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '7.0'
+platform :ios, '8.0'
 inhibit_all_warnings!
 use_frameworks!
 
 def payCards
-    pod 'PayCardsNoAcquiring', :git => 'https://github.com/paycardssdk/PayCardsNoAcquiring.git', :branch => 'master'
+    pod 'PayCardsNoAcquiring', :git => 'https://github.com/paycardssdk/PayCardsNoAcquiring.git', :branch => 'patch-1'
 end
 
 target "PayCardsNoAcquiringObjcDemo" do
